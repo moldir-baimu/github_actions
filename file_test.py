@@ -2,14 +2,14 @@
 
 
 def test_calc_addition():
-        # function tests the output of 2+4
+    # function tests the output of 2+4
     output = 2 + 4
     assert output == 6
 
 
 def test_calc_substraction():
     # function tests the output of 2-4
-    output  = 2 - 4
+    output = 2 - 4
     assert output == -2
 
 
@@ -27,7 +27,5 @@ def test_calc_division():
 
 def test_coucou():
     # Function tests if the output return 'hello'
-    output='hello'
+    output = 'hello'
     assert output == 'hello'
-
-
